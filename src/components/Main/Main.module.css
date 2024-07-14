@@ -1,0 +1,120 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.desc {
+    text-align: center;
+}
+
+@media (min-width: 375px) and (max-width: 1199px) {
+    .desc {
+        padding-top: 30px;
+    }
+}
+
+.desc h3 {
+    font-size: 18px;
+}
+
+.searchBar {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 270px) and (max-width: 1199px) {
+    .searchBar  {
+        padding: 5px 10px;
+    }
+}
+
+.card {
+    font-family: 'Poppins', sans-serif !important;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: auto;
+}
+
+@media (min-width: 375px) and (max-width: 1199px) {
+    a {
+       width: 50%;
+       font-size: 16px;
+    }
+}
+
+@media (max-width: 470px) {
+    .card { 
+        width: 300px;
+    }
+}
+
+.cardContent {
+    padding: 0 16px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+ 
+.customFont input  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.css-gepadz-MuiTypography-root  {
+    font-family: 'Poppins', sans-serif;
+}
+
+.starsContainer {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.starItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+
+}
+
+@media (min-width: 375px) and (max-width: 1199px) {
+    .buttonContainer {
+        width: 100%;
+    }
+}
+.button {
+    background-color: #38598b !important;
+    color: white !important;
+    text-transform: inherit !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h3, h2 {
+    font-weight: normal;
+}

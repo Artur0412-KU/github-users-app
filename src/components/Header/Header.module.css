@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+}
+
+.title {
+    margin: 5px;
+}
+
+.toggleTheme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 375px) and (max-width: 1199px)  {
+    .header {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}
+
